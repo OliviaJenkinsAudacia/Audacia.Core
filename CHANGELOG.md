@@ -1,5 +1,17 @@
 # Changelog
 
+## 3.0.0 - 2026-03-03
+### Added
+- README.md file to Nuget Package.
+
+### Changed
+- Upgraded target framework to .NET10
+- Upgraded Audacia.CodeAnalysis framework from 1.11.0 to 1.12.1
+- Replaced the test project's GlobalSuppressions.cs with a project-scoped .editorconfig.
+
+## Removed
+- Project-scoped .editorconfig file in class library.
+
 ## 2.0.1 - 2024-12-19
 ### Fixed
 - Addressed issue where `ConvertGenericTypeArgument` would fail to compile expressions with nested lambdas.
